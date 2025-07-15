@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gsoc-As a company</title>
+     <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <%for(let project of projects){ %>
+    
+      <div class="project"></div>
+ <h5 >👁️Title:<%=project.title%> <br> Description:<%=project.description%></h5>
+ <hr>
+   
+</div>
+         
+<%}%>
+<form method="get" action="/projects/new"><button class="add">Add Projects</button></form>
+</body>
+</html>

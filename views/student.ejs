@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gsoc-AS student</title>
+     <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <%for(let project of projects){ %>
+    
+      <div class="project"></div>
+ <h5 >👁️Title:<%=project.title%> <br> Description:<%=project.description%></h5>
+ <form method="get" action="/projects/student/apply"><button type="submit" class="add" >Apply</button></form>
+ <hr>
+ 
+</div>
+         
+<%}%>
+</body>
+</html>

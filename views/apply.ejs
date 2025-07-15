@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+</head>
+<body>
+    <form method="post" action="/projects/student/apply/success">
+        <label name="studName">Student Name:</label>
+        <input  name="studName">
+        <br><br>
+        <label>Email:</label>
+  <input type="email" name="email" placeholder="your@gmail.com" required><br><br>
+        <label for="github">GitHub Profile:</label>
+<input type="url" id="github" name="github" placeholder="https://github.com/yourusername" required><br><br>
+<label for="resume">Resume Link:</label>
+<input type="url" id="resume" name="resume" placeholder="https://drive.google.com/your-resume-link">
+<br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
